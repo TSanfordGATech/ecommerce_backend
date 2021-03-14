@@ -3,6 +3,13 @@ Contact: Tori Sanford
 
 Email: tori.danielle.clark91@gmail.com 
 
+Link to final repo:
+
+Link to video walk through: 
+
+## to run this application 
+You will need to use .env, express, mysql2, and sequelize. 
+
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
 ## Your Task
