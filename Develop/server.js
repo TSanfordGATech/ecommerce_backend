@@ -3,7 +3,7 @@ const express = require('express');
 // organize my routing files
 const routes = require('./routes');
 // import sequelize connection
-const sequelize = require(./config.connection');
+const sequelize = require('./config.connection');
 
 // Calls the express function and puts new express applications inside the app const. 
 const app = express();
