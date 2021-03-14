@@ -1,3 +1,4 @@
+// Made no adjustements to this page. All content provided from Bootcamp. 
 const { Product } = require('../models');
 
 const productData = [
