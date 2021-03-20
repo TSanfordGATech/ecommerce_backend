@@ -39,8 +39,8 @@ Product.init(
       references: {
         model: "category",
         key: "id",
-      },
-    },
+      }
+    }
   },
   // go to sequelize
   {
