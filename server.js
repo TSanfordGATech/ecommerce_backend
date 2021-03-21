@@ -9,7 +9,7 @@ const sequelize = require('./config.connection');
 // Calls the express function and puts new express applications inside the app const. 
 const app = express();
 // Identify the port (pre provided so not changing.)
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3306;
 
 // tell the app to recognize the incoming request object as a JSON object.
 app.use(express.json());
@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
-// Add int he sequelize part first: 
+// Add int the sequelize part first: 
 sequelize.sync({ force: false })
 .then(() => {
   // turn on the port 
